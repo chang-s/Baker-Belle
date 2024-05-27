@@ -1,6 +1,7 @@
 // Require the necessary discord.js classes
 const fs = require('node:fs');
 const path = require('node:path');
+const wait = require('node:timers/promises').setTimeout;
 const { Client, Events, GatewayIntentBits, SlashCommandBuilder, Collection } = require('discord.js');
 const { token } = require('./config.json');
 
