@@ -73,6 +73,7 @@ for (const file of eventFiles) {
 }
 
 // Game Roles prefix command
+/*
 client.on('interactionCreate', async (interaction) => {
 	try {
 	  if (!interaction.isButton()) return;
@@ -103,7 +104,7 @@ client.on('interactionCreate', async (interaction) => {
 	  console.log(error);
 	}
 });
-
+*/
 
 // Log in to Discord with your client's token
 client.login(token);
